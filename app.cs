@@ -31,7 +31,7 @@ namespace HelloWorld {
       }
   
         if (a > 2) {
-        Console.WriteLine("Login failure"); } else if (admin == true) { 
+        Console.WriteLine("Login failure!"); } else if (admin == true) { 
         Console.WriteLine("Login successful"); } else { }
     }
   }
