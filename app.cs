@@ -23,7 +23,7 @@ namespace HelloWorld {
         string pw = Console.ReadLine();
 
        if (pw != adminpw) {
-          Console.WriteLine("Login failed, try agim!"); 
+          Console.WriteLine("Login failed, try agim"); 
             } else { 
          admin = true;
          break;
