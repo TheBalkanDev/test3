@@ -14,7 +14,7 @@ namespace HelloWorld {
     public static void Main (string[] args) {
 
       int a = 0;
-      string adminpw = "123";
+      string adminpw = "dotnet6";
       bool admin = false;
 
       for (int i = 0; i < 3; i++)
@@ -23,7 +23,8 @@ namespace HelloWorld {
         string pw = Console.ReadLine();
 
        if (pw != adminpw) {
-          Console.WriteLine("Login failed, try agim"); 
+          Console.WriteLine("Login failed, try agin!"); 
+          Console.WriteLine("");
             } else { 
          admin = true;
          break;
